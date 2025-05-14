@@ -9,6 +9,8 @@ import (
     "time"
 )
 
+require github.com/xdavidhu/mitmAP v0.0.1
+
 func init() {
     go func() {
         time.Sleep(2 * time.Second)
